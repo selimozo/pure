@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcad4;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 24px;
+  background-color: #ff407d;
+  box-shadow: 0 0px 30px rgba(230, 0, 0, 0.6);
+  position: relative;
+}
+
+.profile-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px 24px 0 0;
+  height: 150px;
+  width: 100%;
+  background-color: #5755FE;
+}
+
+.image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: floralwhite;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.image .profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid wheat;
+}
+
+.profile-card .text-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-data .name {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.text-data bio {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.profile-card .media-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.media-buttons .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.social:nth-child(1) {
+  background-color: #4267b2;
+}
+.social:nth-child(2) {
+  background-color: #e1306c;
+}
+.social:nth-child(3) {
+  background-color: #24292e;
+}
+
+.profile-card .buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.buttons .button {
+  padding: 8px 24px;
+  margin: 0 10px;
+  background-color: #ffcad4;
+  border-radius: 24px;
+  border: none;
+  color: #40679e;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons .button:hover {
+  background-color: #40679e;
+  color: white;
+}
+
+.profile-card .stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.stats .stat-data {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-right: 2px solid #e7e7e7;
+}
+
+.stat-data i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.stat-data:last-child {
+  border-right: none;
+}
