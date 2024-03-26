@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+.container {
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    /* background-image: url(./img/cd-design.jpg); */
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:seashell;
+    text-shadow: 0 1px 5px darkblue;
+}
+
+.logo-chip-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-number-c {
+    padding-top: 20px ;
+}
+
+.description {
+        display: flex;
+        padding-top: 3px;
+        font-size: 16px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.name-valid-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+
+#valid-date {
+    font-weight: 700;
+}
