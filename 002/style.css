@@ -1,59 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 36, 52) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
 }
 .container {
-    max-width: 400px;
-    width: 100%;
-    border: 1px solid;
-    padding: 25px;
-    border-radius: 25px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    /* background-image: url(./img/cd-design.jpg); */
-    background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:seashell;
-    text-shadow: 0 1px 5px darkblue;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(5, 5, 105, 0.5);
+  background-image: url(./img/cd-design.jpg);
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: seashell;
+  text-shadow: 0 2px 8px darkblue;
 }
 
 .logo-chip-container {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 3px;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.chip {
+  width: 48px;
 }
 
 .card-number-c {
-    padding-top: 20px ;
+  padding-top: 25px;
 }
 
 .description {
-        display: flex;
-        padding-top: 3px;
-        font-size: 16px;
+  display: flex;
+  padding-top: 10px;
+  font-size: 18px;
 }
 
 .number {
-    font-weight: 600;
-    font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 5px 0;
 }
 
 .name-valid-c {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
 }
 
-
 #valid-date {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.logoi {
+  font-size: 30px;
+  padding-right: 5px ;
 }
